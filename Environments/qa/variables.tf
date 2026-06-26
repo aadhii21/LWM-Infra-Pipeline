@@ -1,4 +1,4 @@
 variable "aws_region"{
-    type = "string"
+    type = string
     description = "In which region infrastructure should  be created"
 }
