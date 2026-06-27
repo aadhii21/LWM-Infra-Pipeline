@@ -2,13 +2,13 @@ terraform {
   required_providers {
     aws = {
         source ="hashicorp/aws"
-        version "~>6.50"
+        version ="~>6.50"
     }
   }
   backend "s3" {
     bucket= "lwm-terraform-part5"
-    key ="environments/dev/terraform.tfstate "
-    region = "us-southeast-1"
+    key ="environments/dev/terraform.tfstate"
+    region = "ap-southeast-1"
 
   }
   

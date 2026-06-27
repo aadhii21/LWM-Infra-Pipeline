@@ -2,9 +2,9 @@
     ami = var.ami_id
     instance_type = var.instance_type
     subnet_id = var.subnet_id 
-    count =  var.count
+    count =  var.instance_count
     tags ={
-        Name =  "${var.Env}-ec2- ${var.count}"
+        Name =  "${var.Env}-ec2- ${var.instance_count}"
         Env = var.Env
     }    
 } 
