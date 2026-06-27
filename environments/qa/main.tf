@@ -10,4 +10,6 @@ module ec2 {
     ami_id ="ami-095bd4a11ce8746c0"
     instance_type = "t2.micro"
     subnet_id = module.VPC.subnet_id
+    instance_count = "2"
+    Env = "qa"
 }
