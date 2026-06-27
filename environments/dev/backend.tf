@@ -8,7 +8,7 @@ terraform {
   backend "s3" {
     bucket= "lwm-terraform-part5"
     key ="environments/dev/terraform.tfstate "
-    region = "us-southeast-1"
+    region = "ap-southeast-1"
 
   }
   
