@@ -1,4 +1,4 @@
-module vpc {
+/*module vpc {
     source = "../../modules/VPC"
     vpc_cidr = "10.0.0.0/16"
     subnet_cidr = "10.0.1.0/24"
@@ -12,4 +12,4 @@ module ec2 {
     subnet_id = module.vpc.subnet_id
     instance_count = "2"
     Env = "qa"
-}
+}*/
