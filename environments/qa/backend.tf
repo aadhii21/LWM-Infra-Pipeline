@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket= "lwm-terraform-part5"
-    key ="environments/dev/terraform.tfstate "
+    key ="environments/dev/terraform.tfstate"
     region = "us-southeast-1"
 
   }
